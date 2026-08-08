@@ -1,0 +1,6 @@
+services:
+  db-api-app:
+    build: .
+    image: db-api-app:1.0
+    ports:
+      - "9999:9999"
